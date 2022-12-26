@@ -12,6 +12,7 @@ const Home = () => {
       <Link to='/price-slider'>Price Slider</Link>
       <Link to='/tip-calculator'>Tip Calculator</Link>
       <Link to='/weather'>Weather App</Link>
+      <Link to='/carousel'>Image Carousel</Link>
     </div>
   );
 };

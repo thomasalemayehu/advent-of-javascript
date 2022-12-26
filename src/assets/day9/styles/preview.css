@@ -1,0 +1,14 @@
+.carousel-preview-container{
+    margin-right: 24px;
+    display: inline-block;
+    height:100%;
+}
+
+.carousel-preview-container > img{
+    height: 100%;
+    aspect-ratio: 1.5/1;
+}
+
+.carousel-item-active{
+    border: 5px solid rebeccapurple;
+}

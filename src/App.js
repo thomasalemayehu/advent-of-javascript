@@ -16,6 +16,7 @@ import PodcastCheckbox from "./components/day5/PodcastCheckbox";
 import PriceSlider from "./components/day6/PriceSlider";
 import TipCalculator from "./components/day7/TipCalculator";
 import WeatherApp from "./components/day8/WeatherApp";
+import Carousel from "./components/day9/Carousel";
 function App() {
   return (
     <Provider store={appStore}>
@@ -66,6 +67,11 @@ function App() {
           {/* Weather App */}
           <Route path="weather">
             <Route index element={<WeatherApp />} />
+          </Route>
+
+          {/* Image Carousel */}
+          <Route path='carousel'>
+            <Route index element={<Carousel />} />
           </Route>
         </Routes>
       </Router>
