@@ -13,6 +13,7 @@ const Home = () => {
       <Link to='/tip-calculator'>Tip Calculator</Link>
       <Link to='/weather'>Weather App</Link>
       <Link to='/carousel'>Image Carousel</Link>
+      <Link to='/otp'>OTP Screen</Link>
     </div>
   );
 };
