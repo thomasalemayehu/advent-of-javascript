@@ -14,6 +14,7 @@ const Home = () => {
       <Link to='/weather'>Weather App</Link>
       <Link to='/carousel'>Image Carousel</Link>
       <Link to='/otp'>OTP Screen</Link>
+      <Link to='/faq'>FAQ Screen</Link>
     </div>
   );
 };

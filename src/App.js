@@ -18,6 +18,7 @@ import TipCalculator from "./components/day7/TipCalculator";
 import WeatherApp from "./components/day8/WeatherApp";
 import Carousel from "./components/day9/Carousel";
 import OTPScreen from "./components/day10/OTPScreen";
+import FAQScreen from "./components/day11/FAQScreen";
 function App() {
   return (
     <Provider store={appStore}>
@@ -78,6 +79,11 @@ function App() {
           {/* OTP Screen */}
           <Route path="otp">
             <Route index element={<OTPScreen />} />
+          </Route>
+
+          {/* FAQ Screen */}
+          <Route path="/faq">
+            <Route index element={<FAQScreen />} />
           </Route>
         </Routes>
       </Router>
