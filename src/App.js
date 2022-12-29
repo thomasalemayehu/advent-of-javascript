@@ -19,6 +19,9 @@ import WeatherApp from "./components/day8/WeatherApp";
 import Carousel from "./components/day9/Carousel";
 import OTPScreen from "./components/day10/OTPScreen";
 import FAQScreen from "./components/day11/FAQScreen";
+import { RockPaperScissorScreen } from "./components/day12/RockPaperScissorScreen";
+import RockSharedLayout from "./components/day12/RockSharedLayout";
+import Result from "./components/day12/Result";
 function App() {
   return (
     <Provider store={appStore}>
@@ -82,8 +85,16 @@ function App() {
           </Route>
 
           {/* FAQ Screen */}
-          <Route path="/faq">
+          <Route path="faq">
             <Route index element={<FAQScreen />} />
+          </Route>
+
+          {/* Rock Paper Scissor */}
+          <Route path="rock-paper-scissor">
+            <Route path="" element={<RockSharedLayout />}>
+              <Route index element={<RockPaperScissorScreen />} />
+              <Route path=":result" element={<Result />} />
+            </Route>
           </Route>
         </Routes>
       </Router>

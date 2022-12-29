@@ -1,0 +1,96 @@
+@import url("./font.css");
+
+.rpc-result-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.rpc-loss-image {
+  display: block;
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  mix-blend-mode: multiply;
+}
+
+.rpc-win-image {
+  display: block;
+  z-index: 2;
+  mix-blend-mode: multiply;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.rpc-image-hide {
+  display: none;
+}
+.rpc-label-hide {
+  display: none;
+}
+
+.rpc-loss-label,
+.rpc-win-label,
+.rpc-draw-label {
+  position: absolute;
+  display: block;
+  content: "Computer Wins!";
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+  color: #000000;
+}
+
+.rpc-loss-label {
+  right: 20%;
+  top: 8%;
+}
+.rpc-win-label {
+  right: 80%;
+  top: 8%;
+}
+
+.rpc-draw-label{
+    top: 8%;
+    left: 50%;
+     font-size: 32px;
+}
+.rpc-result-player-move,
+.rpc-result-computer-move {
+  position: relative;
+  z-index: 1;
+  width: 50%;
+  /* height: 100%; */
+  display: grid;
+  place-items: center;
+}
+
+.rpc-result-player-move > img,
+.rpc-result-computer-move > img {
+  width: 50%;
+  aspect-ratio: 1/1;
+}
+
+.rpc-result-play-again {
+  position: absolute;
+  z-index: 3;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: 1px solid black;
+  padding: 16px 72px;
+  outline: none;
+  font-family: "Roboto Mono";
+  font-weight: 600;
+  font-size: 20px;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+}
