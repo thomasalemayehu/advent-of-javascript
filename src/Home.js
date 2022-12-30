@@ -16,6 +16,7 @@ const Home = () => {
       <Link to="/otp">OTP Screen</Link>
       <Link to="/faq">FAQ Screen</Link>
       <Link to="/rock-paper-scissor">Rock Paper Scissor</Link>
+      <Link to="/clue-game">Clue Game</Link>
     </div>
   );
 };

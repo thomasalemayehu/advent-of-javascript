@@ -56,10 +56,10 @@
   top: 8%;
 }
 
-.rpc-draw-label{
-    top: 8%;
-    left: 50%;
-     font-size: 32px;
+.rpc-draw-label {
+  top: 8%;
+  left: 50%;
+  font-size: 32px;
 }
 .rpc-result-player-move,
 .rpc-result-computer-move {
