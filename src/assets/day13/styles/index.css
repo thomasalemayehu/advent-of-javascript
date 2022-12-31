@@ -20,7 +20,7 @@
 }
 
 .clue-game-hint {
-    position: relative;
+  position: relative;
   width: 35px;
   height: 35px;
   background-color: #f41e82;
@@ -64,7 +64,7 @@
     -moz-transform: scale(1.8);
     -ms-transform: scale(1.8);
     -o-transform: scale(1.8);
-}
+  }
   100% {
     transform: scale(2.2);
     opacity: 0;
@@ -72,7 +72,7 @@
     -moz-transform: scale(2.2);
     -ms-transform: scale(2.2);
     -o-transform: scale(2.2);
-}
+  }
 }
 
 .clue-game-modal-wrapper {
@@ -87,62 +87,61 @@
   backdrop-filter: blur(5px);
 }
 .clue-game-modal {
-    padding: 2.5% 1.5% 2.5% 3.5%;
-    position: relative;
+  padding: 2.5% 1.5% 2.5% 3.5%;
+  position: relative;
   width: 75%;
   height: 95vh;
-  background: #FFFFFF;
-box-shadow: 0px 0px 146.667px rgba(0, 0, 0, 0.25);
-border-radius: 53.3333px;
+  background: #ffffff;
+  box-shadow: 0px 0px 146.667px rgba(0, 0, 0, 0.25);
+  border-radius: 53.3333px;
   display: flex;
 }
 
 .clue-game-modal-left,
-.clue-game-modal-right{
-    width: 45%;
-    height: 100%;
+.clue-game-modal-right {
+  width: 45%;
+  height: 100%;
 }
-.clue-game-modal-right{
-    width: 50%;
+.clue-game-modal-right {
+  width: 50%;
 }
-.clue-game-modal-right > img{
-    margin-top: 10%;
-    height: 90%;
-    aspect-ratio: 1/1;
+.clue-game-modal-right > img {
+  margin-top: 10%;
+  height: 90%;
+  aspect-ratio: 1/1;
 }
-.clue-game-close-button{
-    position: absolute;
-    right: 40px;
-    top: 30px;
-    width: 40px;
-    aspect-ratio: 1/1;
+.clue-game-close-button {
+  position: absolute;
+  right: 40px;
+  top: 30px;
+  width: 40px;
+  aspect-ratio: 1/1;
 }
-.clue-game-modal-left > h1{
-    font-family: 'Oswald';
-font-style: normal;
-font-weight: 700;
-font-size: 100px;
-line-height: 1.05;
-/* or 92% */
+.clue-game-modal-left > h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 1.05;
+  /* or 92% */
 
-text-transform: uppercase;
+  text-transform: uppercase;
 
-color: #F41E82;
+  color: #f41e82;
 }
-.spacer{
-    height: 48px;
+.spacer {
+  height: 48px;
 }
 
-.clue-game-modal-left > p{
-    margin-top: 16px;
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-letter-spacing: 0.15;
-line-height: 1.5;
-/* or 150% */
+.clue-game-modal-left > p {
+  margin-top: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.15;
+  line-height: 1.5;
+  /* or 150% */
 
-
-color: #000000;
+  color: #000000;
 }

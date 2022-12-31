@@ -23,6 +23,7 @@ import { RockPaperScissorScreen } from "./components/day12/RockPaperScissorScree
 import RockSharedLayout from "./components/day12/RockSharedLayout";
 import Result from "./components/day12/Result";
 import ClueGame from "./components/day13/ClueGame";
+import Calender from "./components/day14/Calender";
 function App() {
   return (
     <Provider store={appStore}>
@@ -101,6 +102,11 @@ function App() {
           {/* Clue Game */}
           <Route path="clue-game">
             <Route index element={<ClueGame />} />
+          </Route>
+
+          {/* Calender Picker */}
+          <Route path="calender">
+            <Route index element={<Calender />} />
           </Route>
         </Routes>
       </Router>
