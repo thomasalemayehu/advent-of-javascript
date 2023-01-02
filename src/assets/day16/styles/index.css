@@ -1,0 +1,33 @@
+.star-rating-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+}
+
+.star-rating-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    height: 180px;
+}
+
+.star-rating-wrapper > svg{
+    height: 120px;
+    aspect-ratio: 1/1;
+}
+
+.star-rating-wrapper path{
+    height: 120px;
+    fill: white;
+    stroke: grey;
+    stroke-width: 5px;
+}
+.star-rating-active path  {
+    fill: #FFD200;
+    stroke: 0px;
+    stroke: none;
+}

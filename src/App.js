@@ -24,6 +24,7 @@ import RockSharedLayout from "./components/day12/RockSharedLayout";
 import Result from "./components/day12/Result";
 import ClueGame from "./components/day13/ClueGame";
 import Calender from "./components/day14/Calender";
+import StarRating from "./components/day16/StarRating";
 function App() {
   return (
     <Provider store={appStore}>
@@ -107,6 +108,12 @@ function App() {
           {/* Calender Picker */}
           <Route path="calender">
             <Route index element={<Calender />} />
+          </Route>
+
+
+          {/* Star Rating */}
+          <Route path="star-rating">
+            <Route index element={<StarRating />} />
           </Route>
         </Routes>
       </Router>

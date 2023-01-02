@@ -18,6 +18,7 @@ const Home = () => {
       <Link to="/rock-paper-scissor">Rock Paper Scissor</Link>
       <Link to="/clue-game">Clue Game</Link>
       <Link to="/calender">Calender Picker</Link>
+      <Link to='/star-rating'>Star Rating</Link>
     </div>
   );
 };
