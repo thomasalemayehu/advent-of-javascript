@@ -19,6 +19,7 @@ const Home = () => {
       <Link to="/clue-game">Clue Game</Link>
       <Link to="/calender">Calender Picker</Link>
       <Link to='/star-rating'>Star Rating</Link>
+      <Link to='/smart-sidebar'>Smart Sidebar</Link>
     </div>
   );
 };

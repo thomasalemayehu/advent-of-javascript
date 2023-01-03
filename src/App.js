@@ -25,6 +25,7 @@ import Result from "./components/day12/Result";
 import ClueGame from "./components/day13/ClueGame";
 import Calender from "./components/day14/Calender";
 import StarRating from "./components/day16/StarRating";
+import SmartSidebar from "./components/day17/SmartSidebar";
 function App() {
   return (
     <Provider store={appStore}>
@@ -114,6 +115,11 @@ function App() {
           {/* Star Rating */}
           <Route path="star-rating">
             <Route index element={<StarRating />} />
+          </Route>
+
+          {/* Smart Sidebar */}
+          <Route path="smart-sidebar">
+            <Route index element={<SmartSidebar />} />
           </Route>
         </Routes>
       </Router>
