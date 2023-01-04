@@ -20,6 +20,7 @@ const Home = () => {
       <Link to="/calender">Calender Picker</Link>
       <Link to='/star-rating'>Star Rating</Link>
       <Link to='/smart-sidebar'>Smart Sidebar</Link>
+      <Link to='/password-generator'>Password Generator</Link>
     </div>
   );
 };

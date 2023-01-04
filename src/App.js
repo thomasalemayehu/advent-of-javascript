@@ -26,6 +26,7 @@ import ClueGame from "./components/day13/ClueGame";
 import Calender from "./components/day14/Calender";
 import StarRating from "./components/day16/StarRating";
 import SmartSidebar from "./components/day17/SmartSidebar";
+import PasswordGenerator from "./components/day18/PasswordGenerator";
 function App() {
   return (
     <Provider store={appStore}>
@@ -120,6 +121,11 @@ function App() {
           {/* Smart Sidebar */}
           <Route path="smart-sidebar">
             <Route index element={<SmartSidebar />} />
+          </Route>
+
+          {/* Password Generator */}
+          <Route path="password-generator">
+            <Route index element={<PasswordGenerator />} />
           </Route>
         </Routes>
       </Router>

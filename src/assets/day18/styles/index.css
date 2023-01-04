@@ -1,0 +1,131 @@
+@import url("./font.css");
+
+.password-generator-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f1f7f4;
+  display: grid;
+  place-items: center;
+}
+
+.password-generator-wrapper {
+  width: 600px;
+}
+
+.password-generator-display-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  height: 70px;
+}
+.password-generator-display-wrapper > img {
+  height: 60%;
+  aspect-ratio: 1/1;
+}
+.password-generator-password-display {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  box-shadow: 0px 0px 32px #cadbd2;
+  border-radius: 26.6667px;
+  display: flex;
+  align-items: center;
+  padding: 12px 2.5%;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.password-generator-slider-container {
+  padding: 0 2%;
+  width: 100%;
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.password-generator-slider-container > div {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 22px;
+  color: #31292f;
+}
+#password-generator-slider {
+  width: 70%;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 10px;
+  height: 10px;
+  background: #cedfe1;
+  outline: none;
+}
+
+#password-generator-slider::-webkit-slider-thumb,
+#password-generator-slider::-moz-range-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  background: #c3e4e8;
+  cursor: pointer;
+  border-radius: 50%;
+  outline: none;
+}
+
+#password-generator-slider::-moz-range-progress {
+  background: #c3e4e8;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 10px;
+}
+
+.password-generator-options-wrapper {
+  margin-top: 42px;
+}
+
+.password-generator-option {
+  height: 32px;
+  padding: 0 2%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.password-generator-option > img {
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+
+.password-generator-option > p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+  color: #31292f;
+}
+.password-generator-option > p > span {
+  font-weight: 500;
+}
+
+.password-generator-notification-container{
+    position: absolute;
+    bottom: 40px;
+    width: 300px;
+    height: 45px;
+    background-color: #31292f;
+    display: grid;
+    place-items: center;
+    font-family: "Roboto Mono";
+    letter-spacing: 0.15px;
+    color: #c3e4e8;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.password-generator-hidden-notification{
+    display: none;
+}
