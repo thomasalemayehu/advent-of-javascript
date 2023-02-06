@@ -8,6 +8,7 @@ Advent of JS and CSS
 
 ## Tech Stack Used:
 
+<span>
 <img src="https://raw.githubusercontent.com/thomasalemayehu/advent-of-javascript/main/public/readmefiles/react.svg" height=30>
 <img src="https://raw.githubusercontent.com/thomasalemayehu/advent-of-javascript/main/public/readmefiles/redux.svg" height=30>
 <img src="https://raw.githubusercontent.com/thomasalemayehu/advent-of-javascript/main/public/readmefiles/css.svg" height=30>
@@ -66,5 +67,3 @@ Advent of JS and CSS
 2.  Run Project
 
     # npm run start
-
-### Vercel Hosted Test Version Link : https://airbnb-clone-kappa-wine.vercel.app/
